@@ -1,0 +1,29 @@
+<html>
+<body>
+<h1 align = "center">Task 2 </h1>
+
+<table align = "center" border = 1>
+<tr>
+<td>Username : </td>
+<td><input type = "text" name = "uname" id ="name" </td>
+</tr>
+
+<tr>
+<td>Password : </td>
+<td><input type = "password" name = "pass" id ="pass" </td>
+</tr>
+
+<tr>
+ <td colspan='2' align="center"><button onclick = "valtovar()">Submit</button></td>
+</tr>
+
+<script>
+function valtovar() {
+ var a = document.getElementById("name").value;
+document.write("Javascript var a = " + a);
+}
+</script>
+
+</table>
+</body>
+</html>
